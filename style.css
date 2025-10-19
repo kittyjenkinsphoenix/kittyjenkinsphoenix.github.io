@@ -328,7 +328,6 @@ section {
   opacity: 0.75;
 }
 
-
 /* ===============================
    Footer
 ================================ */
@@ -392,7 +391,8 @@ footer .location {
     font-size: 2.1rem;
   }
 
-  .projects .project-grid {
+  .projects .project-grid,
+  .certifications .certificate-grid {
     grid-template-columns: repeat(2, 1fr);
   }
 }
@@ -417,7 +417,8 @@ footer .location {
     margin-inline: auto;
   }
 
-  .projects .project-grid {
+  .projects .project-grid,
+  .certifications .certificate-grid {
     grid-template-columns: 1fr;
   }
 
@@ -425,6 +426,7 @@ footer .location {
     font-size: 2rem;
   }
 }
+
 
 
 
