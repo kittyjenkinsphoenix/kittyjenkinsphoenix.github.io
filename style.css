@@ -21,16 +21,28 @@ img{max-width:100%; display:block}
 
 .container{width:min(92%,var(--container)); margin:0 auto}
 
-header{
-  position:fixed; top:0; z-index:20;
-  background:rgba(185,208,195,.9);
+header {
+  position: fixed;
+  top: 0;
+  left: 0; 
+  right: 0; 
+  z-index: 20;
+  background: rgba(185, 208, 195, 0.9);
   width: 100%;
-  backdrop-filter:saturate(180%) blur(6px);
-  border-bottom:1px solid rgba(0,0,0,.05);
+  backdrop-filter: saturate(180%) blur(6px);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
 }
-header .container{display:flex; align-items:center; justify-content:space-between; gap:1rem; padding:16px 0}
-.brand .logo-doodle{font-weight:900; font-size:1.15rem; letter-spacing:.3px}
-.brand .logo-doodle span{font-weight:600}
+
+header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 16px 2rem; 
+  width: 100%;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
 
 nav{display:flex; align-items:center; gap:1rem}
 .nav-menu{list-style:none; display:flex; gap:18px; margin:0; padding:0}
